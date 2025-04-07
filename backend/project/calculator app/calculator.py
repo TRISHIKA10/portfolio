@@ -4,7 +4,7 @@ class Calculator:
     def __init__(self,cal):
         cal.title("Calculator")
         cal.geometry('360x420+0+0')
-        cal.config(bg='gray')
+        cal.config(bg='red')
         cal.resizable(False,False)
         
         self.equation=StringVar()
