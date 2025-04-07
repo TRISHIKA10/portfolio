@@ -1,0 +1,15 @@
+{% load static %}
+<header>
+    <a href="{% url 'core-homePage' %}"><img class="header-logo" src="{% static 'assets/images/logo/tstech.png' %}" height="40" width="150"></a>
+    <nav>
+        <div>
+            <br/>
+            <a href="{% url 'core-homePage' %}" class="nav-link{% if request.path == '/' %} active{% endif %}">Home</a>&nbsp;|
+            <a href="{% url 'core-aboutUs' %}" class="nav-link{% if request.path == '/aboutus/' %} active{% endif %}">About us</a>&nbsp;|
+            <a href="{% url 'core-ourServices' %}" class="nav-link{% if request.path == '/services/' %} active{% endif %}">Our Services</a>&nbsp;|
+            <a href="{% url 'core-contactUs' %}" class="nav-link{% if request.path == '/contactus/' %} active{% endif %}">Contact Us</a>&nbsp;
+          
+        </div>
+    </nav>
+    <hr/>
+</header>

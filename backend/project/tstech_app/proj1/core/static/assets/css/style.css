@@ -1,0 +1,95 @@
+*{
+    align:middle;
+}
+button{
+    color:white;
+    background-color:#eb700c;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    height:40px; width:200px;
+    margin: 0px 4px;
+    border-radius: 5px;
+}
+.mainbutton{color:white;
+    padding-top:0px;}    
+a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    color:white;
+    font-size:50px;    
+    padding-top:10px 
+}
+body{
+    color:white;
+    background-image:url('../images/bg_image/150.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+p{
+    
+    color:white;
+    padding-top:30px
+}
+nav{
+    padding-bottom:10px;
+    color:white;}
+footer{
+    color:white;
+    padding-top:120px;
+    text-decoration: none;
+    color:"black";
+}
+.active {
+    color: #eb6f0b;
+}
+.nav-link:hover{
+    color:#eb6f0b;
+}
+.social-links:hover{
+    color:#eb6f0b;
+}
+.button-links:hover{
+    cursor:pointer;
+    background-color: white;
+    color:#eb6f0b ;
+    border: 1px dashed #eb6f0b;
+}
+
+.testDiv{
+    background-color: #0065ae4d;
+    width:340px;
+    height:330px;
+    padding:20;
+    margin: auto;
+}
+
+
+
+
+/* .submit{
+    padding-top: 100px;
+    height:50px; width:250px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

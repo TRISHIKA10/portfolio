@@ -1,0 +1,23 @@
+{% load static %}
+<html>
+    <head>
+        <title>{{title}}</title>
+        <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    </head>
+
+    <body align="center">
+        {% include 'nav.html' %}
+        <h1><b>ABOUT US</b></h1>
+        <img src="{% static 'assets/images/props/pngegg.png' %}" height="250" width="350" padding-bottom:"50px">
+        <p>We are a company accelerating towards the market of Machine Learning and Artificial Intelligence. We work towards bringing a change in financial sectors, supply chain management </br> and healthcare by applying and renovating it with the current in-trend technologies. transactions to decide the performance and suitability.</p>  
+        </br>
+        {% include 'main_button.html' %}
+
+        {% include 'footer.html' %}   
+    </body>
+  
+</html>
+
+
+
+

@@ -1,0 +1,20 @@
+{% load static %}
+<html>
+    <head>
+        <title>{{title}}</title>
+        <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    </head>        
+    <body align="center">
+        {% include 'nav.html' %}
+        <h1><b>OUR SERVICES</b></h1>
+        <img src="{% static 'assets/images/props/Tech-PNG-Picture.png' %}" height="220" width="320" style="padding-bottom:50px">
+        <p>We help in making financial decisions by employing a process to evaluate the business, projects, budgets, and other finance-related<br/> transactions to decide the performance and suitability.</p>  
+        <br/>
+        {% include 'main_button.html' %}
+        {% include 'footer.html' %} 
+    </body>
+</html>
+
+
+
+

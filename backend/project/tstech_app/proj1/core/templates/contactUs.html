@@ -1,0 +1,81 @@
+{% load static %}
+<html>
+    <head>
+        <title>{{title}}</title>
+        <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    </head>    
+    <body align="center">
+        {% include 'nav.html' %}
+        <h1><b>CONTACT US</b></h1>
+    <div class="testDiv">
+        <form>
+            <p>
+                <label>Full Name : </label>
+                <input type ="name" placeholder="Enter your name" minlength="3" maxlength="20">
+           </p>
+            <p>
+            <label>Phone Number : </label>
+            <input type ="Phone Number" Phone Number="required" placeholder="Enter your phone number"> 
+            </p>
+            <p>
+            <label>Email : </label>
+            
+            <input type ="email" email="required" placeholder="Enter your email"> 
+            </p>
+        </form>
+  
+    <br>
+        {% include 'submit_button.html' %}
+    </div>
+
+        {% include 'footer.html' %}        
+    </body>
+  
+</html>
+
+
+
+
+
+{% comment %} {% load static %}
+<html>
+    <head>
+        <title>{{title}}</title>
+        <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    </head>
+    <body align="center">
+        {% include 'nav.html' %}
+        <h1><b>CONTACT US</b></h1>
+        <div class="testDiv">
+        <form>
+        <p>
+            <label>Full Name : </label>
+            <input type ="name" placeholder="Enter your name" minlength="3" maxlength="20">
+    </p>
+    <p>
+        <label>Phone Number : </label>
+        <input type ="Phone Number" Phone Number="required" placeholder="Enter your phone number"> 
+    </p>
+ 
+ 
+    <p>
+        <label>Email : </label>
+        <input type ="email" email="required" placeholder="Enter your email"> 
+    </p>
+    </form>
+</div>
+
+{% include 'submit_button.html' %}
+{% include 'footer.html' %}        
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+    {% endcomment %}
