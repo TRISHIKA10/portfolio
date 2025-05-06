@@ -1,0 +1,456 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+ }
+
+  
+
+
+.navbar{
+  background-color: #00000094;
+  height: 25px;
+  font-family: Arial, sans-serif ;
+  padding: 30px ;
+  align-items: center;
+  align-self: center;
+}
+.navdiv{
+  padding-left: 90px;
+  padding-right: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  padding-left:30px;
+}
+.nav-links a {
+  font-size: 15px;
+  color: #adadad;
+  text-decoration: none;
+  transition:  0.5s;
+}
+.nav-links a:hover {
+  color: #ffffff;
+} 
+li{
+  list-style: none;
+  display: inline-block;
+}
+li a{
+  color: white;
+  padding-right: 45px;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+}
+.nav-button {
+    width: 150px;
+    height: 40px;
+    border: 2px solid #000000; 
+    background-color: #ceff35;
+    color: black;
+    font-weight: bold;
+    border-radius: 0;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 20px;
+}
+  .nav-button:hover {
+    background-color: #b4e71c;
+    align-items: center;
+  }
+  .banner-button{
+    width: 270px;
+    height: 50px;
+    border: 2px solid #000000; 
+    background-color: #ceff35;
+    color: black;
+    font-weight: bold;
+    border-radius: 0;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .banner-button:hover{
+    background-color: #b4e71c;
+    align-items: center;
+  }
+  .banner-button-padding{
+   padding-top:30px;
+  }
+/* button */
+
+
+
+
+/* body */
+body {
+  background-color: #000000;
+}
+.background-section {
+  background-image: url('img/bg2.jpg');
+  background-size: cover;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 680px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+/* body */
+
+
+
+
+/* text style */
+.text-white-titel{
+  font-family: "Arial Narrow bold", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #ffffff; 
+}
+.text-black-titel{
+  font-family: "Arial Narrow bold", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #000000; 
+  max-width: 1200;
+}
+/* text style */
+
+
+
+
+.hero{
+  padding-left: 250px;
+  max-width: 1200px;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  margin:0px;
+}
+.text-green {
+  font-family: "Arial Narrow bold", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 90px;
+  color: #ceff35; 
+}
+.text-white {
+  font-family: "Arial Narrow bold", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 90px;
+  color: #ffffff; 
+}
+.para1{
+  line-height: 1.6;
+  padding-top: 10px;
+  font-size: 15px;
+  font-size: 15px;
+  color: #adadad;
+}
+
+
+
+
+.about{
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 100px;         
+  background-size: cover;
+  background-position: center;
+  background-color: #e9e5d9;
+}
+.para2{
+  line-height: 1.6;
+  font-size: 15px;
+  padding-top: 30px;
+  color: rgb(0, 0, 0);
+  margin: auto;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+
+
+
+.services {
+  background-image: url('img/bg3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  background-color: #000000;
+}
+.grid-container {
+  font-family: "Arial Narrow bold", Arial, sans-serif;
+  color: #ffffff;
+  display: grid;
+  padding-top: 50px; ;
+  grid-template-columns: repeat(3, 10fr);
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.card {
+  background-color: #e9e5d912;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  height: 12rem;
+  padding: 30px 20px;
+  text-align: center;
+}
+.card:hover {
+  box-shadow: 10px 10px #b4e71c;
+}
+.card h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.card p {
+  color: #adadad;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+  
+
+
+.casestudies{
+  padding-top: 80px;
+  padding-bottom: 100px;          
+  background-size: cover;
+  background-position: center;
+  background-color: #e9e5d9;
+  text-align: center;
+  height: 1050px;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-color: #e9e5d9;
+}
+.casestudies > h3{
+  padding-top: 270px;
+  margin-bottom: 15px;
+  padding-left: 30px;
+}
+.case-studies-container{
+  font-family: "Arial Narrow bold", Arial, sans-serif;
+  color: #000000;
+  padding-top: 50px; 
+  height: 400px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.case-studies-container-1{
+  display: grid;
+  margin-bottom: 30px;
+  grid-template-columns: repeat(2, 10fr);
+  gap: 30px;
+} 
+.case-studies-text1{
+  width: 700px;
+  height: 400px;
+  color: #ffffff;
+  padding: 30px 20px;
+  text-align: left;
+  background-image: url('img/case2.jpg');
+  background-size: cover;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat
+}
+
+.case-studies-text1 h3 {
+  padding-top: 270px;
+  margin-bottom: 15px;
+  padding-left: 30px;
+}
+.case-studies-text1 p {
+  color: #adadad;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.case-studies-text2{
+  height: 400px;
+  color: #ffffff;
+  padding: 30px 20px;
+  text-align: left;
+  background-image: url('img/case.jpg');
+  background-size: cover;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat
+}
+.case-studies-text2 h3 {
+  padding-top: 270px;
+  margin-bottom: 15px;
+  padding-left: 30px;
+}
+.case-studies-text2 p {
+  color: #adadad;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.case-studies-container-2{
+  display: grid;
+  grid-template-columns: repeat(2, 10fr);
+  gap: 30px;
+} 
+.case-studies-text3{
+  height: 400px;
+  color: #ffffff;
+  padding: 30px 20px;
+  text-align: left;
+  background-image: url('img/case3.jpg');
+  background-size: cover;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat 
+}
+.case-studies-text3 h3 {
+  padding-top: 270px;
+  margin-bottom: 15px;
+  padding-left: 30px;
+}
+.case-studies-text3 p {
+  color: #adadad;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.case-studies-text4{
+ width: 700px;
+  height: 400px;
+  color: #ffffff;
+  padding: 30px 20px;
+  text-align: left;
+  background-image: url('img/case5.jpg');
+  background-size: cover;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat
+}
+.case-studies-text4 h3 {
+  padding-top: 270px;
+  margin-bottom: 15px;
+  padding-left: 30px;
+}
+.case-studies-text4 p {
+  color: #adadad;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+
+
+.newsletter{
+  background-image: url('img/bg1copy.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  height: 420px;
+  padding: 30px 0 30px 0;
+  background-color: #000000;
+}
+#name, #email, #phonenumber, #message{
+  width: 600px;
+  height: 40px;
+  background-color: #e9e5d912;
+  color: rgb(255, 255, 255);
+  margin: 10px;
+  border: solid 1px rgb(210, 210, 210);
+}
+.news-container{
+  padding-top: 30px;
+  color: #b4e71c;
+}
+.input-box input::placeholder {
+  color: rgb(210, 210, 210);
+  padding: 5px;
+}
+.input-box .text-white-titel{
+  padding-top: 40px 0 40px 0;
+}
+
+
+
+
+.footer{
+  background-color: #0d0d0d;
+}
+.footer-container{
+  width: flex;
+  padding: 70px 30px 20px;
+}
+.socialicon{
+  display: flex;
+  justify-content: center;
+}
+.socialicon a{
+  padding: 8px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.socialicon a i{
+  font-size: 25px;
+  color: #000;
+  opacity: 0.9;
+}
+.socialicon a:hover{
+  background-color: #0d0d0d;
+  transition: 0.5s;
+}
+.socialicon a i:hover{
+  color: #ffffff;
+  transition: 0.5s;
+}
+.footernav{
+  margin: 30px 0;
+}
+.footernav ul{
+  display: flex;
+  justify-content: center;
+}
+.footernav ul li a{
+  transition:  0.5s;
+  color: #adadad;
+  margin: 20px;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+}
+.footernav ul li a:hover{
+  color: #ffffff;
+}
+.footerbottom{
+  background-color: #000000;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+}
+.footerdes{
+  color:#adadad ;
+  padding: 10px;
+  font-size: 12px;
+}
+.footerlogo{
+  color:#adadad ;
+  font-size: 12px;
+}
