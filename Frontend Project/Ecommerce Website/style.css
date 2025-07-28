@@ -6,8 +6,8 @@
   font-family: "Spartan", sans-serif;
 }
 h1 {
-  font-size: 50px;
-  line-height: 64px;
+  font-size: 100px;
+  line-height: 85px;
   color: #222;
 }
 h2 {
@@ -25,7 +25,7 @@ h6 {
 }
 p {
   font-size: 16px;
-  color: #465b52;
+  color: #222;
   margin: 15px 0 20px 0;
 }
 .section-p1 {
@@ -38,15 +38,12 @@ p {
 body {
   width: 100%;
 }
-body {
-  width: 100%;
-}
 #header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px 80px;
-  background: rgb(215, 218, 227);
+  background: rgb(0, 0, 0);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
 }
 #navbar {
@@ -61,10 +58,52 @@ body {
 #navbar li a {
   text-decoration: none;
   font-size: 16px;
-  font-weight: 600;
-  color: rgb(37, 34, 34);
+  font-weight: 50;
+  color: rgb(185, 185, 185);
   transition: 0.3s;
 }
 #navbar li a:hover {
-  color: #716767;
+  color: #ee8801;
+}
+
+/* home page */
+#hero {
+  background-image: url(img/hero\ image.jpg);
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+#hero span {
+  color: #0000008a;
+  padding-bottom: 500px;
+}
+#hero h4 {
+  padding-bottom: 22px;
+}
+#hero h1 {
+  color: black;
+  padding-bottom: 20px;
+}
+#hero p {
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+#hero button {
+  background-color: #ee8801;
+  border: #ee8801;
+  color: white;
+  width: 150px;
+  height: 40px;
+}
+#hero button:hover {
+  background-color: #d97d04;
+  border: #d97d04;
+  color: rgb(255, 253, 253);
+  transition: 0.3s;
+  cursor: pointer;
 }
