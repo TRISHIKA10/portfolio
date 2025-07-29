@@ -110,7 +110,7 @@ body {
   color: white;
 }
 .shop-btn {
-  background-color: rgb(255 91 75);
+  background-color: rgb(221 92 133);
   border: 0;
   font-size: 15px;
   display: inline-block;
@@ -123,7 +123,7 @@ body {
   margin-bottom: 30px;
 }
 #hero button:hover {
-  background-color: rgb(249, 67, 50);
+  background-color: rgb(249, 110, 154);
   border: 0;
   color: rgb(255, 253, 253);
   transition: 0.3s;
@@ -153,12 +153,31 @@ body {
   width: 100%;
   height: auto;
   margin-bottom: 0px;
+  background-color: rgba(190, 190, 190, 0.197);
 }
 #feature .feature-box h6 {
   display: inline-block;
   padding: 9px 22px;
   line-height: 1;
   border-radius: 5px;
-  background-color: rgba(190, 190, 190, 0.197);
   color: #121212;
+}
+
+/* product */
+#product1 {
+  text-align: center;
+}
+#product1 .pro {
+  width: 23%;
+  min-width: 250px;
+  height: auto;
+  padding: 10px 12px;
+  border: 1px solid #e7dfcc;
+  background-color: rgba(190, 190, 190, 0.197);
+  border-radius: 10px;
+}
+
+#product1 .pro img {
+  width: 100%;
+  border-radius: 10px;
 }
